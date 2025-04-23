@@ -23,7 +23,7 @@ const NavigationBar = () => {
             <button
               onClick={() => {
                 betterAuthClient.signIn.email({
-                  email: "kabir@gmail.com",
+                  email: "thanmayi@gmail.com",
                   password: "HelloWorld@123",
                 });
               }}
@@ -33,8 +33,8 @@ const NavigationBar = () => {
             <button
               onClick={() => {
                 betterAuthClient.signUp.email({
-                  name: "Kabi",
-                  email: "kabir@gmail.com",
+                  name: "thanmayi",
+                  email: "thanmayi@gmail.com",
                   password: "HelloWorld@123",
                 });
               }}
